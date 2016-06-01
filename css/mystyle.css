@@ -4,17 +4,27 @@
 	background-color: #fff;
 }
 
-.top-navigation < .content {
+.top-navigation > .content {
 
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+	padding: 0px 15px;
 	
 }
 
 .logo {
 	height: 4em;
-	margin-left: 20%;
+}
+
+.top-navigation > .content > .links {
+
+	float: right;
+}
+
+.top-navigation > .content > .links > li {
+
+	display: inline-block;
 }
 
 
