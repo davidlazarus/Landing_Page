@@ -1,7 +1,25 @@
-body {
-	background-color: LightGray;
+/* Navigation Section */
+
+.top-navigation {
+	background-color: #fff;
 }
 
-div {
-	border: 1px solid White;
+.top-navigation < .content {
+
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+	
+}
+
+.logo {
+	height: 4em;
+	margin-left: 20%;
+}
+
+
+
+body {
+
+	background-color: grey;
 }
