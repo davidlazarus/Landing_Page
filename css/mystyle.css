@@ -1,3 +1,7 @@
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
 /* Navigation Section */
 
 .top-navigation {
@@ -14,7 +18,7 @@
 }
 
 .logo {
-	height: 4em;
+	height: 70px;
 }
 
 .top-navigation > .content > .links {
@@ -25,9 +29,28 @@
 .top-navigation > .content > .links > li {
 
 	display: inline-block;
+	box-sizing: border-box;
+	padding-top: 15px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	margin-left: 1em;
+
 }
 
+.top-navigation > .content > .links > li:hover {
+	color: #838994;
+	font-weight: 500;
+	cursor: pointer;
+}
 
+.top-navigation > .content > .links > .active {
+
+	color: #838994;
+	font-weight: 500;
+
+}
 
 body {
 
