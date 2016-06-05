@@ -230,9 +230,9 @@ hr {
 
 .join {
 	
-	padding-top: 15px;
+	padding: 10px 10px;
 	text-align: center;
-	padding-bottom: 15px;
+	
 }
 
 .social > .content3 {
@@ -263,13 +263,22 @@ hr {
 	margin-left: -40px;
 
 
+
 }
 
 .social > .content3 > .socialicons > li:hover {
 
 	background-color: lightgrey ;
 	color: white;
+	cursor: pointer;
 
+}
+
+.copywrite {
+
+	text-align: center;
+	padding: 10px 0;
+	margin-bottom: 50px;
 }
 
 
