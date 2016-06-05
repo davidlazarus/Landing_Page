@@ -129,7 +129,7 @@ body {
 
 .icons {
 
-	height: 800px;
+	height: 570px;
 	background: white;
 }
 
@@ -217,18 +217,60 @@ body {
 }
 
 
+/* footer section */
 
 
+hr {
+	width: 600px;
+	display: block;
+	margin: 0 auto;
+	border-color: rgba(210, 210, 210, .20);
+}
 
 
+.join {
+	
+	padding-top: 15px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.social > .content3 {
+
+	width: 300px;
+	margin: 0 auto;
+}
+
+.social > .content3 > .socialicons > li {
+
+	display: inline-block; 
+	padding: 10px 10px;
+	border: 2px solid;
+	border-color: rgba(210, 210, 210, .20);
+	color: grey;
+	width: auto;
+	height: auto;
+	border-radius: 100%;
+	transition: background-color 0.5s ease; 
+	transition: color 0.8s ease;
+}
 
 
+.social > .content3 > .socialicons {
+
+	display: flex;
+	justify-content: space-around;
+	margin-left: -40px;
 
 
+}
 
+.social > .content3 > .socialicons > li:hover {
 
+	background-color: lightgrey ;
+	color: white;
 
-
+}
 
 
 
