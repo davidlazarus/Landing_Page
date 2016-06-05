@@ -62,10 +62,10 @@ html {
 
 .introduction {
 	
-	background-image: url("/Users/dla/Documents/ZZZ_DLA/CODE/startup-landing-page-clone/IMG/BKG.jpg");
+	background-image: url(../img/bkg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 42em;
+	height: 675px;
 	overflow: auto;
 	background-position: 0 100%;
 	
@@ -79,8 +79,7 @@ html {
 
 }
 
-
-.content h1, h3 {
+.introduction > .content > h1, h2 {
 
 	color: white;
 	text-align: center;
@@ -88,12 +87,12 @@ html {
 
 }
 
-button {
+.introduction > .content button {
 	 
 	display: block;
-	margin: 3em auto;
-	width: 10em;
-	height: 4em;
+	margin: 50px auto;
+	width: 160px;
+	height: 65px;
 	background-color: #f15a29;
 	border-color: #f15a29;
 	border-radius: 4px;
@@ -102,7 +101,7 @@ button {
 
 }
 
-button:hover {
+.introduction > .content button:hover {
 
 	cursor: pointer;
 	background-color: #d9400e;
@@ -117,5 +116,122 @@ body {
 
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	background-color: grey;
+	background-color: white;
+
 }
+
+/* Icon Section */
+
+
+.icons {
+
+	height: 800px;
+	background: white;
+}
+
+.icons > h1 {
+
+	padding-top: 100px;
+	font-size: 3em;
+	text-align: center;
+	font-weight: lighter;
+	box-sizing: border-box;
+
+}
+
+.icons > .container {
+
+	width: 900px;
+	display: flex; 
+	justify-content: space-around;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+
+
+}
+
+.icons > .container > .icon_1 {
+
+	width: 150px;
+	height: 200px;
+	background-image: url(../img/icon-devices.svg);
+	background-repeat: no-repeat;
+	overflow: auto;
+	
+}
+
+.icons > .container > .icon_2 {
+
+	width: 150px;
+	height: 200px;
+	background-image: url(../img/icon-coffee.svg);
+	background-repeat: no-repeat;
+	overflow: auto;
+	
+}
+
+.icons > .container > .icon_3 {
+
+	width: 150px;
+	height: 200px;
+	background-image: url(../img/icon-refill.svg);
+	background-repeat: no-repeat;
+	overflow: auto;
+	
+}
+
+
+.icons > .container2 {
+
+	width: 900px;
+	display: flex; 
+	justify-content: space-around;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -20px;
+	
+
+}
+
+.icons > .container2 > .text_1 > h2 {
+	
+	color: black;
+	margin-left: -70px;
+}
+
+.icons > .container2 > .text_2 > h2 {
+
+	color: black;
+	margin-left: -150px;
+}
+
+.icons > .container2 > .text_3 > h2 {
+
+	color: black;
+	margin-left: -130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
