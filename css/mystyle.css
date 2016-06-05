@@ -11,6 +11,9 @@ html {
 
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .content {
@@ -62,6 +65,7 @@ html {
 
 .introduction {
 	
+	padding-top: 65px;
 	background-image: url(../img/bkg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
